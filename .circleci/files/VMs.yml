@@ -33,7 +33,7 @@ Resources:
       SecurityGroups:
         - Ref: InstanceSecurityGroup
       KeyName: vodaexam_kp 
-      ImageId: ami-0279c3b3186e54acd
+      ImageId: ami-0022f774911c1d690
       Tags:
         - Key: Name
           Value: !Sub vodaexam-${ID}
