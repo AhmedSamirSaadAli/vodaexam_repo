@@ -32,7 +32,7 @@ Resources:
       InstanceType: t2.micro
       SecurityGroups:
         - Ref: InstanceSecurityGroup
-      KeyName: udacity 
+      KeyName: vodaexam_user 
       ImageId: ami-0279c3b3186e54acd
       Tags:
         - Key: Name
